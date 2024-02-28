@@ -8,7 +8,7 @@ export const RecipeLayout = () => {
     recetas.map(receta => {
       return <Card
         key={receta.id}
-        className="max-w-xl my-4"
+        className="mx-auto max-w-xl my-4"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc={receta.image}
       >

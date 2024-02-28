@@ -5,9 +5,9 @@ import { SearchForm } from './SearchForm';
 
 export const Navigation = () =>  {
   return (
-    <Navbar fluid rounded>
+    <Navbar fluid rounded className="sticky top-0">
       <Navbar.Brand href="https://flowbite-react.com">
-        <MdOutlineBakeryDining className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo"/>
+        <MdOutlineBakeryDining className="mr-3 h-6 sm:h-9" alt="Bread Logo"/>
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Recetario de Leonardo</span>
       </Navbar.Brand>
       <div className="flex md:order-2">

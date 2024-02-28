@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Navigation />
+      <Navigation/>
       <div className="block margin-auto">
         <RecipeLayout />
       </div>
