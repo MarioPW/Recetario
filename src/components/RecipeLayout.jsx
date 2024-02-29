@@ -8,7 +8,8 @@ export const RecipeLayout = () => {
     recetas.map(receta => {
       return <Card
         key={receta.id}
-        className="mx-auto max-w-xl my-4"
+        id={receta.name}
+        className="mx-auto max-w-xl my-4 "
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc={receta.image}
       >
@@ -16,8 +17,8 @@ export const RecipeLayout = () => {
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {receta.name}
         </h5>
-        <div className="overflow-x-auto">
-          <Table striped >
+        
+          <Table striped className=''>
             <Table.Head>
               <Table.HeadCell>Ingredientes:</Table.HeadCell>
               <Table.HeadCell>Cantidad:</Table.HeadCell>
@@ -33,7 +34,7 @@ export const RecipeLayout = () => {
             })}
 
           </Table>
-        </div>
+        
         <h5 className="px-3 py-1 bg-gray-700 text-2x1 font-bold tracking-tigh text-white">
           Preparacion:
         </h5>
