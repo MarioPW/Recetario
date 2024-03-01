@@ -1,58 +1,58 @@
 import { useState } from "react"
 import { Dropdown } from 'flowbite-react';
 
-import { recetas } from "../Services/recetas"
-
-// *************** TO DO: MAKE THE COMENTED LINES WORK... CAN'T WRITE IN THE INPUT... :( *********
+import { recetas } from "../Services/recetas";
 
 export const SearchForm = () => {
 
-  // let [inputValue, setValue] = useState("")
-  // let [dropdownItems, setItem] = useState(["searhing..."])
+  let [inputValue, setValue] = useState("")
+  let [dropdownItems, setItem] = useState(["searhing..."])
 
-  const recipeNames = recetas.map(i => i.name).sort()
+  const dropdownItemsHTML = dropdownItems.map((item) => (
+    <Dropdown.Item key={item} className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"><a href={'#' + item}>{item}</a></Dropdown.Item>))
 
-  // const searchValue = (value) => {
-  //   const recipeNames = recetas.map(i => i.name)
-  //   const result = recipeNames.filter((name) => name.toLowerCase().includes(value.toLowerCase()))
-  //   return result
-  // }
+  const searchValue = (value) => {
+    const recipeNames = recetas.map(i => i.name)
+    const result = recipeNames.filter((name) => name.toLowerCase().includes(value.toLowerCase()))
+    return result
+  }
 
-  // const valueSetter = (e) => {
-  //   setValue(e.target.value)
-  // }
+  const valueSetter = (e) => {
+    setValue(e.target.value)
+  }
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault()
-  //   const toSearch = e.target.elements.search.value
-  //   inputValue = searchValue(toSearch)
-  //   setItem(inputValue)
-  // }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const toSearch = e.target.elements.search.value
+    inputValue = searchValue(toSearch)
+    setItem(inputValue)
+  }
 
   return (
     <>
-      <Dropdown dismissOnClick={false} label="Indice" inline>
 
-        {/* <Dropdown.Header className="z-1">
-          <form onSubmit={handleSubmit}>
-            <label htmlFor="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Buscar</label>
-            <div className="relative">
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Buscar</label>
+        <div className="relative">
+
+          <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+          </div>
+          <input value={inputValue} onChange={valueSetter} type="search" id="search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 z-50" placeholder="Bucar" required />
+          <button id="searchButton" type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+
+            <Dropdown dismissOnClick={false} label="Ver" inline>
+              {dropdownItemsHTML}
+            </Dropdown>
+          </button>
+        </div>
+      </form >
 
 
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                </svg>
-              </div>
-              <input value={inputValue} onChange={valueSetter} type="search" id="search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 z-10" placeholder="Buscar" required />
-              <button id="searchButton" type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buscar</button>
-            </div>
-          </form >
-        </Dropdown.Header> */}
 
-        {recipeNames.map((item) => (
-          <Dropdown.Item key={item} className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"><a href={'#' + item}>{item}</a></Dropdown.Item>))}
-      </Dropdown>
+
     </>
   )
 }
