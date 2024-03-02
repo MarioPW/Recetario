@@ -9,7 +9,7 @@ export const RecipeLayout = () => {
       return <Card
         key={receta.id}
         id={receta.name}
-        className="mx-auto max-w-xl my-4 "
+        className="mx-auto max-w-lg my-4"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc={receta.image}
       >

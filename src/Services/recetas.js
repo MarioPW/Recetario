@@ -243,6 +243,56 @@ export const recetas = [
             },
         ],
         preparation: ['Mezclar todos los ingredientes hasta obtener una masa homogénea', 'Dejar reposar la masa de 1-2 horas en refrigeración','Formar pandeyucas (Herraduras) de 90 a 100 gramos','Hornear a 160ºC durante 20 minutos.']
+    },
+    {
+        id: 'ah06h54-5as5t',
+        name: 'Pan de Masa Madre',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa8L9hJCmOjIJnRZQflKdB9Bykfj_nMb0daA&usqp=CAU',
+        category: 'Panes de Corteza',
+        ingredients: [
+            {
+                name: 'Harina de Trigo',
+                weight: '1320 g',
+            },
+            {
+                name: 'Harina Integral',
+                weight: '660 g',
+            },
+            {
+                name: 'Aceite de Oliva',
+                weight: '40 mL',
+            },
+            {
+                name: 'Sal',
+                weight: '40 g',
+            },
+            {
+                name: 'Masa Madre',
+                weight: '480 g'
+            },
+            {
+                name: 'Agua',
+                weight: '1620 mL',
+            },
+        ],
+        preparation: ['Mezclar todos los ingredientes hasta obtener una masa homogénea', 'Amasar hasta obtener punt tela.','Formar hogazas de 500 g a 1000 g según el tamaño deseado y poner en solera enharinada.','Dejar leudar de 3 a 4 horas a Tº ambiente.','Refrigerar de 12 a 18 horas a 2ºC.', 'Hornear durante 40 minutos a 230ºC con 10 segundos de vapor al inicio del horneo.']
+    },
+    {
+        id: 'm1n33h54-5as5t',
+        name: 'Masa Madre',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJbTbqA8HvvZNCZ4-iX6KFnVWW8WnztmI0fXih4UpBjs3Kd2ZkHBN9NNtOyI6tQ7pFIhk&usqp=CAU',
+        category: 'Panes de Corteza',
+        ingredients: [
+            {
+                name: 'Harina de Trigo',
+                weight: '800 g',
+            },
+            {
+                name: 'Agua',
+                weight: '800 g',
+            },
+        ],
+        preparation: ['Mezclar 500 g de harina y 500 mL de agua hasta obtener una masa homogénea.', 'Dejar reposar durante 48 horas a Tº ambiente.','Adicionar 150 g de harina y 150 mL de agua y mezclar.','Dejar reposar durante 24 horas a Tº ambiente.',' Refrigerar de 12 a 24 horas.','Adicionar nuevamente 150 g de harina y 150 mL de agua y mezclar.','Dejar reposar durante 4 horas a Tº ambiente.','Refigerar durante 12 a 24 horas.','Preparar una receta de pan de masa madre pero sin agregar la sal ni el aceite (sólo las harinas, el agua y la masa madre que se está preparando).', 'Dejar fermentar durante 4 horas y refrigerar.','Luego de este procedimiento la masa madre quedará lista. Al usarla, dejar siempre una porción y repetir los pasos 9 y 10 para no dejarla acabar.']
     }
 
 ]
