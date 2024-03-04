@@ -15,9 +15,9 @@ function App() {
       <div className="block margin-auto">
       </div>
       <Routes>
-        <Route path='/Leos' element={<Home/>} />
-        <Route path='/Leos/recipes' element={<RecipeLayout/>} />
-        <Route path='/Leos/register' element={<Register/>} />
+        <Route path='/Recetario' element={<Home/>} />
+        <Route path='/Recetario/recipes' element={<RecipeLayout/>} />
+        <Route path='/Recetario/register' element={<Register/>} />
       </Routes>
       <MyFooter />
     </div>
