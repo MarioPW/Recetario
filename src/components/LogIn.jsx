@@ -42,7 +42,7 @@ export const LogIn = () => {
             </div>
             <div className="flex justify-between text-sm font-medium text-gray-500 dark:text-gray-300">
               No te registras aún?&nbsp;
-              <Link to="/Leos/register" className="text-cyan-700 hover:underline dark:text-cyan-500" onClick={() => setOpenModal(false)}>
+              <Link to="/Recetario/register" className="text-cyan-700 hover:underline dark:text-cyan-500" onClick={() => setOpenModal(false)}>
                 Registrarme
               </Link>
             </div>
