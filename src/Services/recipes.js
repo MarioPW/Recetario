@@ -1,6 +1,6 @@
 
 
-export const recetas = [
+export const recipes = [
     {
         id: 'gared4-56sdt',
         name: 'Buñuelos',

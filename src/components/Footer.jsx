@@ -2,8 +2,8 @@ import { Footer } from 'flowbite-react';
 
 export const MyFooter = () => {
   return (
-    <Footer bgDark>
-      <div className="w-full mb-6">
+    <Footer className='bg-blue-800 text-blue-200'>
+      <div className="w-full">
         <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
           <div>
             <Footer.Title title="Company" />
@@ -44,11 +44,7 @@ export const MyFooter = () => {
         <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="Mario Triana" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            {/* <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsGithub} />
-            <Footer.Icon href="#" icon={BsDribbble} /> */}
+              {/** FOOTER ICONS */}
           </div>
         </div>
       </div>
