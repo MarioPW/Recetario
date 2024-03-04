@@ -28,7 +28,7 @@ export const SearchForm = () => {
 
   return (
     <>
-      <Sidebar className="ml-4 absolute">
+      <Sidebar className="block sm:absolute ml-4 ">
         <Sidebar.Items>
           <Sidebar.ItemGroup>
             <Sidebar.Item>

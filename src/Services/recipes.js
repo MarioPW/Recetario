@@ -8,7 +8,7 @@ export const recipes = [
         category: 'Amacijos',
         ingredients: [
             {
-                name: 'Queso Costeño Bien Molido',
+                name: 'Queso Costeño',
                 weight: '1000 g',
             },
             {
@@ -16,7 +16,7 @@ export const recipes = [
                 weight: '500 g',
             },
             {
-                name: 'Colmaiz Buñuelo ó Maizena',
+                name: 'Fécula de Maiz',
                 weight: '500 g',
             },
             {
@@ -36,7 +36,7 @@ export const recipes = [
                 weight: '100-200 mL',
             },
         ],
-        preparation: ['Poner abundante aceite a 300ºC.', 'Mezclar todos los ingredientes hasta lograr una masa homogénea.', 'Formar bolas de entre 40-100 gramos según el tamaño deseado.', 'Introducir los buñuelos en el aceite hasta que queden dorado.']
+        preparation: ['Poner abundante aceite a 300ºC.', 'Mezclar todos los ingredientes hasta obtener una masa homogénea. (*Es necesario moler el queso costeño.)', 'Formar bolas de entre 40-100 gramos según el tamaño deseado.', 'Introducir los buñuelos en el aceite hasta que queden dorados.']
     },
     {
         id: 'gared4-565dt',
@@ -73,7 +73,7 @@ export const recipes = [
                 weight: '80 g',
             },
         ],
-        preparation: ['Mezclar todos los ingredientes.', 'Amasar durante 15 minutos.', 'Cortar porciones de 700 g. y formar hogazas.', 'Dejar leudar durante 4 horas.', 'Hornear a 230ºC durante 35 minutos.']
+        preparation: ['Mezclar todos los ingredientes.', 'Amasar durante 15 minutos ó hasta obtener el punto tela.', 'Cortar porciones de 700 g. y formar hogazas.', 'Dejar leudar durante 4 horas.', 'Hornear a 230ºC durante 35 minutos.']
     },
     {
         id: 'gawerd4-565dt',
@@ -185,7 +185,7 @@ export const recipes = [
                 weight: '1000 g',
             },
             {
-                name: 'Harina de Maiz Amarillo Precocida',
+                name: 'Harina de Maiz',
                 weight: '90 g',
             },
             {
@@ -226,7 +226,7 @@ export const recipes = [
                 weight: '800 g',
             },
             {
-                name: 'Almidón Agrio Granulado',
+                name: 'Almidón Agrio',
                 weight: '1000 g',
             },
             {
@@ -242,7 +242,7 @@ export const recipes = [
                 weight: '100-400 mL',
             },
         ],
-        preparation: ['Mezclar todos los ingredientes hasta obtener una masa homogénea', 'Dejar reposar la masa de 1-2 horas en refrigeración','Formar pandeyucas (Herraduras) de 90 a 100 gramos','Hornear a 160ºC durante 20 minutos.']
+        preparation: ['Mezclar todos los ingredientes hasta obtener una masa homogénea.', 'Dejar reposar la masa de 1-2 horas en refrigeración.','Formar pandeyucas (Herraduras) de 90 a 100 gramos.','Hornear a 160ºC durante 20 minutos.']
     },
     {
         id: 'ah06h54-5as5t',
