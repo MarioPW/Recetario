@@ -17,9 +17,9 @@ export const Navigation = () => {
       </div>
       <Navbar.Collapse>
         <hr />
-        <Link to="/Leos">Home</Link>
+        <Link to="/Recetario">Home</Link>
         <hr />
-        <Link to="/Leos/recipes">Recetas</Link>
+        <Link to="/Recetario/recipes">Recetas</Link>
         <hr />
         <Navbar.Link>
         </Navbar.Link>
