@@ -275,7 +275,7 @@ export const recipes = [
                 weight: '1620 mL',
             },
         ],
-        preparation: ['Mezclar todos los ingredientes hasta obtener una masa homogénea', 'Amasar hasta obtener punt tela.','Formar hogazas de 500 g a 1000 g según el tamaño deseado y poner en solera enharinada.','Dejar leudar de 3 a 4 horas a Tº ambiente.','Refrigerar de 12 a 18 horas a 2ºC.', 'Hornear durante 40 minutos a 230ºC con 10 segundos de vapor al inicio del horneo.']
+        preparation: ['Mezclar todos los ingredientes hasta obtener una masa homogénea.', 'Amasar hasta obtener punt tela.','Formar hogazas de 500 g a 1000 g según el tamaño deseado y poner en solera enharinada.','Dejar leudar de 3 a 4 horas a Tº ambiente.','Refrigerar de 12 a 18 horas a 2ºC.', 'Hornear durante 40 minutos a 230ºC con 10 segundos de vapor al inicio del horneo.']
     },
     {
         id: 'm1n33h54-5as5t',

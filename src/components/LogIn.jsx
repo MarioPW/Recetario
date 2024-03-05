@@ -9,7 +9,7 @@ export const LogIn = () => {
 
   return (
     <>
-      <Button className='inline-flex justify-center items-center py-1 px-3 text-base font-medium text-center text-white rounded-lg  hover:bg-yellow-500 bg-yellow-300 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900' onClick={() => setOpenModal(true)}>Login</Button>
+      <Button className='inline-flex justify-center items-center py-1 px-3 text-base font-medium text-center text-white rounded-lg  hover:bg-yellow-500 bg-yellow-300 focus:ring-1 focus:ring-red-600 dark:focus:ring-blue-900' onClick={() => setOpenModal(true)}>Login</Button>
       <Modal show={openModal} size="md" popup onClose={() => setOpenModal(false)} initialFocus={emailInputRef}>
         <Modal.Header />
         <Modal.Body>
