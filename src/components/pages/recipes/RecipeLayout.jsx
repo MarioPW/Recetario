@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 import { Card, Table } from 'flowbite-react';
 import { RecipeTable } from './RecipeTable';
-import { recipes } from '../Services/recipes';
+import { recipes } from '../../../Services/recipes';
 import { Preparation } from './Preparation';
 import { SearchForm } from './SearchForm';
 

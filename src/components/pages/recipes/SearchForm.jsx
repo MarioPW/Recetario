@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Sidebar } from 'flowbite-react';
-import { recipes } from "../Services/recipes";
+import { recipes } from "../../../Services/recipes";
 
 export const SearchForm = () => {
   let [inputValue, setValue] = useState("");

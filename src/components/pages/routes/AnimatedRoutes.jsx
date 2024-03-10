@@ -1,8 +1,8 @@
 import React from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Home } from './Home';
-import { Register } from './Register';
-import { RecipeLayout } from './RecipeLayout';
+import { Home } from '../home/Home';
+import { Register } from '../loginRegister/Register';
+import { RecipeLayout } from '../recipes/RecipeLayout';
 import { AnimatePresence } from 'framer-motion';
 
 export const AnimatedRoutes = () => {

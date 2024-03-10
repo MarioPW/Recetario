@@ -388,7 +388,7 @@ export const recipes = [
     {
         id: 'zzz62f54-000thnert',
         name: 'Scones',
-        image: 'https://lh3.googleusercontent.com/proxy/sYYzdR0WoAZrU61bZV4a2lGNYXwxrqjlfO3qxbTIt35aB0bMlbVDBQ9dM6vyNFnOXVoH0AwUhGw1ZvS268dc_1okWsUk_AblqdV96PZvDLIq8mz3vvXF3O_E2SfwYma8O_dShrcQL0tDzQ9kaDZxCgM',
+        image: 'https://lh3.googleusercontent.com/proxy/EfhhQI7fsi-4Zc6P5amr3fJ_JNE3YUeEgPsWjgVb-tokH3ouboRK1x0SDJ8zO_tuCg5F9BJ__UjOzwwH4ta1gTltqOJ54jtisyQC6oMBIi-1NGR4JLaX-STIjM6772utHtlNFPsyytddvhcK2NEkbUg',
         category: categories.viennoiserie,
         ingredients: [
             {

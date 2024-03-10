@@ -1,8 +1,8 @@
-import { Navigation } from './components/Navigation';
-import { MyFooter } from './components/Footer';
-import { Preheader } from './components/Preheader';
+import { Navigation } from './components/pages/home/Navigation';
+import { MyFooter } from './components/pages/home/Footer';
+import { Preheader } from './components/pages/home/Preheader';
 
-import { AnimatedRoutes } from "./components/AnimatedRoutes";
+import { AnimatedRoutes } from "./components/pages/routes/AnimatedRoutes";
 
 function App() {
 

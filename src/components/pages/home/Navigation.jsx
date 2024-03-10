@@ -2,7 +2,7 @@
 import { Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom"
 import { MdOutlineBakeryDining } from "react-icons/md";
-import { LogIn } from './LogIn';
+import { LogIn } from '../loginRegister/LogIn';
 
 export const Navigation = () => {
   return (
