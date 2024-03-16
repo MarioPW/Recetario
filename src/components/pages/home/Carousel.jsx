@@ -1,15 +1,20 @@
 
 import { Carousel } from 'flowbite-react';
+import { recipes } from '../../../Services/recipes';
 
 export const MyCarousel = () => {
+
+  const carouselRecipes = recipes.filter( recipe => recipe.category == 'Panes de Queso')
+  const carouselImages = carouselRecipes.map( recipe => {
+    return (
+    <img key={recipe.id}src={recipe.image} alt={recipe.name} />
+    )
+  })
+
   return (
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+    <div className="sm:h-6 xl:h-80 2xl:h-96 my-32 mx-32">
       <Carousel>
-        <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+        {carouselImages}
       </Carousel>
     </div>
   );

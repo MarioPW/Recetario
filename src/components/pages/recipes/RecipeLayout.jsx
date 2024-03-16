@@ -8,6 +8,7 @@ import { SearchForm } from './SearchForm';
 
 
 export const RecipeLayout = () => {
+  const sortedRecipes = recipes.sort((a, b) => a.name.localeCompare(b.name));
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -18,7 +19,7 @@ export const RecipeLayout = () => {
       <SearchForm />
 
       <div className='flex flex-col mx-auto'>
-        {recipes.map(receta => {
+        {sortedRecipes.map(receta => {
           return (
             <Card
               key={receta.id}

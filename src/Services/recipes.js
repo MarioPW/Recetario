@@ -10,7 +10,7 @@ export const recipes = [
         id: 'gared4-56sdt',
         name: 'Buñuelos',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7UlcxeCoaAi0jL4h_Cwr2jq1lsnN0sjOb3g&usqp=CAU',
-        category: categories.amacijos,
+        category: categories.cheeseBreads,
         ingredients: [
             {
                 name: 'Queso Costeño',

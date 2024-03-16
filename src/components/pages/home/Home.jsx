@@ -1,9 +1,12 @@
 
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { MyCarousel } from './Carousel';
+
 
 
 export const Home = () => {
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
