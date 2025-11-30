@@ -47,7 +47,7 @@ export const recipes = [
         id: 'gared4-565dt',
         name: 'Pan de Centeno',
         image: 'https://pecadoartesano.com/45-large_default/pan-espelta-100-integral.jpg',
-        category: 'Panes de Corteza',
+        category: categories.crustBreads,
         ingredients: [
             {
                 name: 'Harina de trigo',
