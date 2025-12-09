@@ -420,7 +420,7 @@ export const recipes = [
                 weight: '50 g',
             }
         ],
-        preparation: ['Mezclar todos los ingredientes ECXEPTO LA LECHE.','Amasar hasta obener una mezcla arenosa, similar a la de la harina pero un poco mas gruesa.','Agregar la leche.','Mezclar SIN AMASAR solamente para incormporar la leche.','Porcionar según el tamaño deseado 100g a 150g.','Envolar con leche.','Hornear a 160ºC durante 14 minutos.', 'Servir con el queso crema y la mermelada.']
+        preparation: ['Mezclar harina, azucar, mantequilla y polvo para hornear.','Incorporar hasta obener una mezcla arenosa, similar a la de la harina pero un poco mas gruesa.','Agregar la leche.','Mezclar SIN AMASAR solamente para incormporar la leche.','Porcionar según el tamaño deseado 100g a 150g.','Envolar con leche.','Hornear a 160ºC durante 14 minutos.', 'Servir con el queso crema y la mermelada.']
     }
 
 ]

@@ -2,18 +2,17 @@ import { Navigation } from './components/pages/home/Navigation';
 import { MyFooter } from './components/pages/home/Footer';
 import { Preheader } from './components/pages/home/Preheader';
 
-import { AnimatedRoutes } from "./components/pages/routes/AnimatedRoutes";
-import { HashRouter } from 'react-router-dom';
+import { AnimatedRoutes } from "./components/routes/AnimatedRoutes";
 
 function App() {
 
-  return (
-    <div className='mx-0'>
+    return (
+    <div className='flex flex-col min-h-screen'>
       <Preheader />
       <Navigation />
-      <div className="block margin-auto">
-      </div>
+      <main className='flex-1'>
         <AnimatedRoutes />
+      </main>
       <MyFooter />
     </div>
   )
